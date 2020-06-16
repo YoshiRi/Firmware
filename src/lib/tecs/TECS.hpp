@@ -85,7 +85,7 @@ public:
 				   float throttle_min, float throttle_setpoint_max, float throttle_cruise,
 				   float pitch_limit_min, float pitch_limit_max);
 
-	float get_throttle_setpoint(void) { return _throttle_setpoint; }
+	float get_throttle_setpoint() { return _throttle_setpoint; }
 	float get_pitch_setpoint() { return _pitch_setpoint; }
 	float get_speed_weight() { return _pitch_speed_weight; }
 
